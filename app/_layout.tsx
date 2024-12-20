@@ -52,6 +52,8 @@ function RootLayoutNav() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }}/>
+        <Stack.Screen name="times" options={{ headerShown: false }}/>
+        <Stack.Screen name="novaturma" options={{ headerShown: false }}/>
       </Stack>
     </ThemeProvider>
   );
